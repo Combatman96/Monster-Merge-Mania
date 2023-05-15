@@ -12,7 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 048bbfda39d5420408db7678f2035ac3, type: 3}
   m_Name: ResourceConfig
   m_EditorClassIdentifier: 
-  monsterIcons: []
+  monsterIcons:
+  - {fileID: 21300000, guid: 2c70d070d91bde243bd237eb3fad9895, type: 3}
+  - {fileID: 21300000, guid: 8dedbbd5b2aefca4ca72ea39f5181532, type: 3}
+  - {fileID: 21300000, guid: 9e4d7b3cc22e57c479c3f42ae8e4ff4c, type: 3}
+  - {fileID: 21300000, guid: 1bb9f1b55541f564f8173369f8810c15, type: 3}
+  - {fileID: 21300000, guid: 79de487c9ccd87c429534ad8ca59909b, type: 3}
+  - {fileID: 21300000, guid: eaaa855c1540423498781ef44cf0ca9f, type: 3}
+  - {fileID: 21300000, guid: 970ff6d542caeb044b931219c46719c2, type: 3}
+  - {fileID: 21300000, guid: 41f8d34017fc7924fb25f74f542484ed, type: 3}
+  - {fileID: 21300000, guid: bf093f5a9ab477445b8bf6d7d80e6adf, type: 3}
+  - {fileID: 21300000, guid: 569265fb47df12d49baca86db55fe2af, type: 3}
+  - {fileID: 21300000, guid: 6b6c550a1510e47469bf3bd9218a837a, type: 3}
+  - {fileID: 21300000, guid: e4ef97f226b5cf543aaa42e7b4150474, type: 3}
+  - {fileID: 21300000, guid: 69191fadf4bcb314282211c2131e2e70, type: 3}
+  - {fileID: 21300000, guid: 0ae0e2ff7b9126d4ba29f415ae121567, type: 3}
+  - {fileID: 21300000, guid: 1d3f70511c48a074cbb02ee426907a5b, type: 3}
+  - {fileID: 21300000, guid: 0eed5a892b5c1584eababdd67ca3c010, type: 3}
+  - {fileID: 21300000, guid: feda50ad30d34984bb5fd0831fe29a8e, type: 3}
+  - {fileID: 21300000, guid: fffaf75713785854698f0f069f504284, type: 3}
   majongs:
   - {fileID: 231143897185196686, guid: d5606905fed9a8141a60ec94129981cc, type: 3}
   - {fileID: 231143897185196686, guid: cbc16f2a9845dec49af2ab11a560dc90, type: 3}
@@ -32,3 +50,22 @@ MonoBehaviour:
   - {fileID: 231143897185196686, guid: d8552a5bcf8dfef45aa58cc9466f051d, type: 3}
   - {fileID: 231143897185196686, guid: 0a9b0ba4c934561419031abd00a535e2, type: 3}
   - {fileID: 231143897185196686, guid: a28d79d5dd83bd644a25430b6d4a4245, type: 3}
+  monsters:
+  - {fileID: 6886675427893371259, guid: 955ddea19942f8544af96b03f989e9f9, type: 3}
+  - {fileID: 7185111745894141683, guid: d8dfa930145e30341931d55e618e4065, type: 3}
+  - {fileID: 688274598189261204, guid: 445b0fd1dd34b55449725a08cd112974, type: 3}
+  - {fileID: 1262487454091187423, guid: a5a4851aeb4361c488d6c9020ce26aba, type: 3}
+  - {fileID: 4634408445615377641, guid: 11e0140a539d8d344988d8a6d8e8649a, type: 3}
+  - {fileID: 8931379872833287478, guid: cde9cec4ff4f493418002e0111447fca, type: 3}
+  - {fileID: 8965264537437523007, guid: 37540e1b939e0f445b5440ed4514d96a, type: 3}
+  - {fileID: 4336567918949368915, guid: 61aab09fc1d0c8f41b49cd8c29694c05, type: 3}
+  - {fileID: 5306006529219207236, guid: 6565f4974d3f1d8418e3e2a87b07dfd0, type: 3}
+  - {fileID: 8234590362204442152, guid: dcea908f9bd074a4292784b3aa9040e8, type: 3}
+  - {fileID: 6948383415322057228, guid: 0b8b308caa2709d428d4dfcd890ec633, type: 3}
+  - {fileID: 5935898981526140707, guid: aabd573ea168b224ca469f0582c07d7e, type: 3}
+  - {fileID: 7541968974899186412, guid: 365204c1c95c8384087498e9731bb115, type: 3}
+  - {fileID: 2179471609045297220, guid: 5188dbaac4507b04985e267cc49bdbd5, type: 3}
+  - {fileID: 8721329983572762313, guid: 3c63cdc44a4fe12458dae836e9ca8ae6, type: 3}
+  - {fileID: 1292577095806001693, guid: 2ce6dc7d669fe8547b8054c4f10592a7, type: 3}
+  - {fileID: 6013021008127534512, guid: 93b339b63474952409f51d44bf3c3d25, type: 3}
+  - {fileID: 1898167372142449341, guid: 0bd1768729a80f348b9ab13a54ed0380, type: 3}

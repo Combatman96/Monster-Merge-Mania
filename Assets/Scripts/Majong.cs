@@ -9,15 +9,20 @@ public class Majong : MonoBehaviour
     public Transform topChecker;
     public bool isOnTop = true;
 
+    public Collider hitBox;
+
     public Color topColor;
     public Color belowColor;
 
     public MeshRenderer mesh;
 
+    public bool isCollected = false;
+
     // Start is called before the first frame update
     void Start()
     {
         isOnTop = true;
+        isCollected = false;
     }
 
     private void Update()

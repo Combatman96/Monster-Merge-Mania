@@ -8,6 +8,8 @@ public class BoardSpawner : MonoBehaviour
     public ResourceConfig resourceConfig;
     public Transform boardNew;
 
+    public Vector3 offset;
+
     [Button]
     public void SetUpBoardRandom()
     {
@@ -21,7 +23,7 @@ public class BoardSpawner : MonoBehaviour
         {
             int index = Random.Range(0, listMajong.Count);
             var majong = listMajong[index];
-            Instantiate(majong, pos, Quaternion.identity, boardNew);
+            Instantiate(majong, pos + offset, Quaternion.identity, boardNew);
         }
     }
 }
