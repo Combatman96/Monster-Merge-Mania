@@ -15,7 +15,6 @@ MonoBehaviour:
   monsterIcons: []
   majongs:
   - {fileID: 231143897185196686, guid: d5606905fed9a8141a60ec94129981cc, type: 3}
-  - {fileID: 231143897185196686, guid: ec54731d73e2d774fa823969f19e2d5b, type: 3}
   - {fileID: 231143897185196686, guid: cbc16f2a9845dec49af2ab11a560dc90, type: 3}
   - {fileID: 231143897185196686, guid: 6453b12ff4cb79541aceeea99ce9ced7, type: 3}
   - {fileID: 231143897185196686, guid: b4e65b118f355cb4aa0196ecf3bd4fcb, type: 3}
