@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1120445874346232830}
   - component: {fileID: 1120445874346232831}
   m_Layer: 0
-  m_Name: Board
+  m_Name: BoardSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916ad7aeb10b8f45b87f14a4a0bb3a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resourceConfig: {fileID: 11400000, guid: 99584ce9a703a8f4692434fe4f713517, type: 2}
 --- !u!1001 &1120445873957488379
 PrefabInstance:
   m_ObjectHideFlags: 0

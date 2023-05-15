@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048bbfda39d5420408db7678f2035ac3, type: 3}
+  m_Name: ResourceConfig
+  m_EditorClassIdentifier: 
+  monsterIcons: []
+  majongs:
+  - {fileID: 231143897185196686, guid: d5606905fed9a8141a60ec94129981cc, type: 3}
+  - {fileID: 231143897185196686, guid: ec54731d73e2d774fa823969f19e2d5b, type: 3}
+  - {fileID: 231143897185196686, guid: cbc16f2a9845dec49af2ab11a560dc90, type: 3}
+  - {fileID: 231143897185196686, guid: 6453b12ff4cb79541aceeea99ce9ced7, type: 3}
+  - {fileID: 231143897185196686, guid: b4e65b118f355cb4aa0196ecf3bd4fcb, type: 3}
+  - {fileID: 231143897185196686, guid: c31a3ff09415deb4dba76c041acd3888, type: 3}
+  - {fileID: 231143897185196686, guid: 2d68abd74e4e78247b4127710225a0a3, type: 3}
+  - {fileID: 231143897185196686, guid: 2c331f72f9213264aa490e57c2ff3017, type: 3}
+  - {fileID: 231143897185196686, guid: 5ba4e831b0b5a93479fef079ca71e3c2, type: 3}
+  - {fileID: 231143897185196686, guid: 2119b87e9a3e7954d8a5fcbdc527d1b9, type: 3}
+  - {fileID: 231143897185196686, guid: e5d7d26ac4910804eba543c3c3c63772, type: 3}
+  - {fileID: 231143897185196686, guid: c2809ec2189f9c04cb66497e735975b1, type: 3}
+  - {fileID: 231143897185196686, guid: edfc21f24ad6f5140b5215e15dc41fb7, type: 3}
+  - {fileID: 231143897185196686, guid: 6fc8eac91205bf14fb179d5911636ca7, type: 3}
+  - {fileID: 231143897185196686, guid: ba02bb36424b02340bdc4bbec30b2620, type: 3}
+  - {fileID: 231143897185196686, guid: 7ea0ba85eceedaf46a73330231ced54e, type: 3}
+  - {fileID: 231143897185196686, guid: d8552a5bcf8dfef45aa58cc9466f051d, type: 3}
+  - {fileID: 231143897185196686, guid: 0a9b0ba4c934561419031abd00a535e2, type: 3}
+  - {fileID: 231143897185196686, guid: a28d79d5dd83bd644a25430b6d4a4245, type: 3}
