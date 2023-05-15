@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5956739050104396032}
-  m_Layer: 0
+  - component: {fileID: 679579770139361306}
+  - component: {fileID: 8087429713274198997}
+  m_Layer: 6
   m_Name: Majong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,9 +31,36 @@ Transform:
   m_Children:
   - {fileID: 5533559970171798649}
   - {fileID: 6201006141829713065}
+  - {fileID: 879779106219950121}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &679579770139361306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184236806773621639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c20ab0b30a21de4898d007237e9eb00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteIcon: {fileID: 3954667059079316913}
+--- !u!65 &8087429713274198997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184236806773621639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.33139396, z: 1.6278694}
+  m_Center: {x: 0, y: 0.0051899254, z: -0.0002976358}
 --- !u!1 &3802859436349030118
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,14 +72,13 @@ GameObject:
   - component: {fileID: 5533559970171798649}
   - component: {fileID: 787073574087808203}
   - component: {fileID: 5691652927382429444}
-  - component: {fileID: 7066100381576952797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5533559970171798649
 Transform:
   m_ObjectHideFlags: 0
@@ -115,19 +143,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7066100381576952797
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3802859436349030118}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6913228525717161330
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4777663251975166829}
   - component: {fileID: 4937613251036328800}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6201006141829713065}
   - component: {fileID: 3954667059079316913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,3 +307,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &846433819173087170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5956739050104396032}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30.909876
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 70.70352
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 68.90612
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0028
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0018
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e21b2e1171dcb71428085d3bce10f90e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d91495541537a7438b2b696425f79b0, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+      propertyPath: m_Name
+      value: Mahjong Tile Low-poly only 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+--- !u!4 &879779106219950121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2d5886610f123394ab7434a40017665c, type: 3}
+  m_PrefabInstance: {fileID: 846433819173087170}
+  m_PrefabAsset: {fileID: 0}
